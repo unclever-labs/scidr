@@ -1,4 +1,4 @@
-# Split CIDR
+# SCIDR
 
 ## Introduction
 
@@ -13,11 +13,11 @@ Split a large CIDR block < `/16` into smaller CIDR blocks
 Pass an arg into it:
 
 ```bash
-split-cidr 58.14.0.0/15
+scidr 58.14.0.0/15
 ```
 
 Pipe into it:
 
 ```bash
-echo 58.14.0.0/15 | split-cidr
+echo 58.14.0.0/15 | scidr
 ```
