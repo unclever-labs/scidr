@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Split a large CIDR block < `/16` into smaller CIDR blocks. This is needed when using AWS WAF since the largest CIDR block they accept is a `/16`.
+Split a large CIDR block < `/16` into smaller CIDR blocks. This is needed when using AWS WAF since the largest CIDR block they accept is a `/16`. Used in CI/CD pipelines with Jinja2 templating -> Terraform when definining WAF IP Sets (whitelists/blacklists).
 
 ## Contents
 
