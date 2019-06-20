@@ -6,7 +6,14 @@ Split a large CIDR block < `/16` into smaller CIDR blocks. This is needed when u
 
 ## Contents
 
+- [Install](#install
 - [Usage](#usage)
+
+## Install
+
+```bash
+brew install unclever-labs/unclever-labs/scidr
+```
 
 ## Usage
 
